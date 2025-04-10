@@ -20,11 +20,11 @@ namespace MyApp.Presentation.Pages.Account
 
         public IActionResult OnPost()
         {
-            if (Username == "admin" && Password == "admin")
-            {
-                //redirect to home 
-                return RedirectToPage("Index");
-            }
+            //if (Username == "admin" && Password == "admin")
+            //{
+            //    //redirect to home 
+            //    return RedirectToPage("Index");
+            //}
 
             ErrorMessage = "Invalid username or password.";
             return Page();
